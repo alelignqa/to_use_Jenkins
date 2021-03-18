@@ -76,7 +76,7 @@ public class Demo {
 
     }
 
-    @Test @Ignore
+    @Test
     public void benefit() throws InterruptedException {
       //  toTheFooter();
         driver.findElement(By.xpath("//a[normalize-space()='Walmart+']")).click();
